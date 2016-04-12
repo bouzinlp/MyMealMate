@@ -64,7 +64,7 @@ public class WbxmlParser implements XmlPullParser {
         boolean z = false;
         int i = 0;
         while (i < (this.attributeCount << 2)) {
-            String substring;
+            String substring = new String();
             String str = this.attributes[i + 2];
             int indexOf = str.indexOf(58);
             if (indexOf != -1) {
@@ -101,7 +101,7 @@ public class WbxmlParser implements XmlPullParser {
             i += 4;
         }
         if (z) {
-            for (i3 = (this.attributeCount << 2) - 4; i3 >= 0; i3 -= 4) {
+            for (int i3 = (this.attributeCount << 2) - 4; i3 >= 0; i3 -= 4) {
                 String str3 = this.attributes[i3 + 2];
                 int indexOf2 = str3.indexOf(58);
                 if (indexOf2 == 0) {
@@ -109,7 +109,7 @@ public class WbxmlParser implements XmlPullParser {
                 }
                 if (indexOf2 != -1) {
                     String substring2 = str3.substring(0, indexOf2);
-                    str = str3.substring(indexOf2 + 1);
+                    String str = str3.substring(indexOf2 + 1);
                     String namespace = getNamespace(substring2);
                     if (namespace == null) {
                         throw new RuntimeException("Undefined Prefix: " + substring2 + " in " + this);
