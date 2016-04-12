@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/settings_icon" android:id="@id/settings" android:title="@string/settings" android:titleCondensed="@string/settings" />
+    <item android:icon="@drawable/help_icon" android:id="@id/help" android:title="@string/help" android:titleCondensed="@string/help" />
+    <item android:icon="@drawable/food_log_icon" android:id="@id/food_log" android:title="@string/food_log" android:titleCondensed="@string/food_log" />
+    <item android:icon="@drawable/progress_tracking_icon" android:id="@id/progress_tracking" android:title="@string/progress_tracking" android:titleCondensed="@string/progress_tracking" />
+    <item android:icon="@drawable/weight_entry_icon" android:id="@id/weight_entry" android:title="@string/weight_entry" android:titleCondensed="@string/weight_entry" />
+</menu>

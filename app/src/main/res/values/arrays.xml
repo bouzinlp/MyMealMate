@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mealslots_array">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Evening meal</item>
+        <item>Snacks</item>
+    </string-array>
+    <string-array name="feedback_messages_a1">
+        <item>"You haven't met your calorie target this week, you can focus on the target next week and meet your goal. Plan now for what meals you are going to eat next week."</item>
+        <item>"It looks like you've exceeded your calories for the week. Don't stop now - remember that meeting your calorie target will keep you on track for weight loss."</item>
+        <item>"You haven't met your calorie goals this week, try not to be disheartened, if you keep making changes to meet your calorie target, it will help you to meet your overall goal."</item>
+        <item>"It looks like your calories are over-budget this week, don't be too hard on yourself you can get back on track next week, try to stay focussed on your overall weight loss goal."</item>
+        <item>It appears that you’ve gone over your calorie targets this week, have a look back at your diary, is there anything you can do differently next week?</item>
+        <item>"You're not quite there this week with you calorie target, take a look at your diary, is there scope to make any further changes to your diet and activity?"</item>
+        <item>"You've exceeded your weekly calorie target, have a look at your diary, what types of food are most of your calories coming from?"</item>
+        <item>"You've gone over your calorie target this week, don't give up, what can you see from your diary? Is there any scope for increasing your activity for example?"</item>
+        <item>You’re over your calorie budget this week, check your diary, are there any swaps you can make for lower calorie foods?</item>
+        <item>It looks like you’re not quite there with your calorie budget this week, your diary can help you to understand your diet, is there any room for improvement?</item>
+        <item>"You haven't achieved your calorie goal this week, can you see any patterns from reviewing your diary? Is there any scope to reduce portion sizes for example?"</item>
+        <item>"You haven't met your calorie target for the week, have a look back at your diary, are there any times of the day when you eat more?"</item>
+        <item>"It looks like you've exceed your calorie targets this week, your diary can help you to understand your eating patterns for the week, are there any snacks that you don't need?"</item>
+        <item>"You haven't achieved your calorie goal this week, it might help to remind yourself and write down your original reasons for wanting to lose weight."</item>
+        <item>"You haven't met your goals this week, is there anything in your diary to help, are you doing enough activity for example?"</item>
+        <item>"It looks like your calories are over-budget this week, don't give up! Remember all of your reasons for joining this programme."</item>
+        <item>It looks like you’ve had more calories than your goal this week, to get back on track think about all the benefits of weight loss, what would it mean to you to lose weight?</item>
+        <item>"It looks like you've had more calories than your goal this week, don't worry, you can get back on track next week, remind yourself of all of your reasons for wanting to lose weight."</item>
+        <item>"You haven't achieved your calorie target this week. People want to lose weight for all sorts of reasons, what are your specific reasons to lose weight?"</item>
+        <item>"You’re not quite there with your target this week, don't be discouraged you can start again next week. How will it change the way you feel when you meet your weight loss goal?"</item>
+        <item>It looks like your over-budget on your calories this week. Remember all the benefits of losing weight and how you will feel when you achieve your goal.</item>
+        <item>"You haven't achieved your calorie goal this week, it motivates some people to write down all the things that weight loss would mean to them."</item>
+        <item>"You haven't met your calorie target this week. There are lots of reasons people try to lose weight. Did you know that just 5% weight loss will decrease your blood pressure."</item>
+        <item>"You've exceeded your calorie target this week. Lots of people lose weight for health reasons like preventing diabetes, cancer and heart disease. What are your reasons to meet your goal?"</item>
+        <item>It looks like you’re not quite there with your calorie targets this week, people have their own reasons for weight loss, one example is to feel fitter and healthier. Is this one of your reasons?</item>
+        <item>"You haven't met your calorie targets this week. Don't forget even a small weight loss can help to protect your health in the long term. What other benefits can you think of?"</item>
+    </string-array>
+    <string-array name="feedback_messages_a2">
+        <item>You’ve achieved your calorie targets on some days this week. It looks like good changes are taking place. Try to put a plan in place for what healthy meals you will be eating next week.</item>
+        <item>"You've done well some days this week on meeting your calorie targets, keep going, you can focus on the target next week again to achieve your weight loss goal."</item>
+        <item>It looks like you’ve achieved your calorie targets on a couple of days this week, good work, remember that meeting your calorie target will help you to stay on track for weight loss.</item>
+        <item>"You've met your targets some days this week. This is good, if you keep making changes to meet your calorie target, it will help you to meet your overall goal."</item>
+        <item>Well done, some days this week have been within your calorie budget, try to stay focussed on your overall weight loss goal.</item>
+        <item>"You've met your target on some days that you recorded, keep up the good work. Remember that looking at your diary can help you plan further changes for next week to meet your target."</item>
+        <item>Good work, you met your calorie targets on some days last week. Take a look at your diary, is there scope to make any further changes to your diet and activity?</item>
+        <item>Good work, you met your calorie targets some days recorded last week, have a look at your diary, what types of food are most of your calories coming from?</item>
+        <item>"You've done really well some days this week and met your calorie target, don't give up, what can you see from your diary? Is there any scope for increasing your activity for example?"</item>
+        <item>"Well done you met your calorie targets on some days this week. Don't give up! Check your diary, are there any swaps you can make for lower calorie foods?"</item>
+        <item>"You've met your calorie targets some days you recorded, you are making good progress, your diary can help you to understand your diet, is there any room for improvement?"</item>
+        <item>You met your calorie goals on some days this week. Keep going! Can you see any patterns from reviewing your diary? Is there any scope to reduce portion sizes for example?</item>
+        <item>You met your calorie targets sometimes this week, have a look back at your diary, are there any times of the day when you eat more?</item>
+        <item>"You met your target on some days this week. Your diary can help you to understand your eating patterns for the week, are there any snacks that you don't need?"</item>
+        <item>Keep going, you met your calorie targets on some days this week. It might help to remind yourself and write down your original reasons for wanting to lose weight.</item>
+        <item>You met your calorie goal some days you recorded. Is there anything in your diary to help you do even better next week? Are you doing enough activity?</item>
+        <item>"Don't give up, you met your calorie goals on some days you recorded last week. Remember all of your reasons for joining this programme."</item>
+        <item>You met your calorie goals on some days last week. To stay on track think about all the benefits of weight loss, what would it mean to you to lose weight?</item>
+        <item>Good work, you met your calorie goals on some days last week. To keep going an do even better next week, remind yourself of all of your reasons for wanting to lose weight.</item>
+        <item>You achieved your calorie goals on some recorded days last week. People want to lose weight for all sorts of reasons, what are your specific reasons to lose weight?</item>
+        <item>You met your weekly calorie goals on some recorded days. Keep up the good work. How will it change the way you feel when you meet your weight loss goal?</item>
+        <item>You achieved your calorie goals some days last week. Keep making changes. Remember all the benefits of losing weight and how you will feel when you achieve your goal.</item>
+        <item>You achieved your calorie goals on some days last week. Keep it up! It motivates some people to write down all the things that weight loss would mean to them.</item>
+        <item>You met your calorie goals on some days last week. There are lots of reasons people try to lose weight. Did you know that just 5% weight loss will decrease your blood pressure.</item>
+        <item>On some days last week you met your calorie goals. Lots of people lose weight for health reasons like preventing diabetes, cancer and heart disease. What are your reasons to meet your goal?</item>
+        <item>On some days last week you met your calorie goals. People have their own reasons for weight loss, one example is to feel fitter and healthier. Is this one of your reasons?</item>
+        <item>"Keep going, you met your calorie goals on some days last week. Don't forget even a small weight loss can help to protect your health in the long term. What other benefits can you think of?"</item>
+    </string-array>
+    <string-array name="feedback_messages_a3">
+        <item>Congratulations! Most of your recorded days last week met your calorie goals. You are making really good progress! Keep planning your meals for next week.</item>
+        <item>Well done! Over half of your recorded days last week were within your calorie goals. If you keep up this good work you are on track to achieve your weight loss goal.</item>
+        <item>Good effort! The majority of your recorded days last met your calorie target. You are on track to meeting your weight loss goals.</item>
+        <item>Most of your recorded days last week met your calorie target. You are making excellent progress towards achieving your weight loss goal.</item>
+        <item>Over half of your diary entries last week were within your calorie budget. You are making great progress towards your weight loss goal.</item>
+        <item>Keep up the good work! Most of your recorded days last week met your calorie targets. You are on target to achieve your goal of weight loss.</item>
+        <item>Most of your recorded days last week met your calorie target. You are on track, does your diary give you any further pointers to keep improving next week?</item>
+        <item>it looks like most of your recorded days met your calorie budget this week, remember that meeting your calorie target will help you to stay on track for weight loss.</item>
+        <item>Over half of your diary entries met your calorie targets last week. Good work - if you keep making changes to meet your calorie target, it will help you to meet your weight loss goal.</item>
+        <item>Brilliant - most of your recorded days last week met your calorie budget. Keep up the good work!</item>
+        <item>You achieved your calorie goals most days last week. This is good - keep making changes and remember all the benefits of losing weight and how you will feel when you achieve your goal.</item>
+        <item>You achieved your calorie goals on most recorded days last week. Keep it up! It motivates some people to write down all the things that weight loss would mean to them.</item>
+        <item>Great job! You met your calorie targets on most days last week. There are lots of reasons people try to lose weight. Did you know that just 5% weight loss will decrease your blood pressure.</item>
+        <item>Excellent! On most days last week you met your calorie target. Lots of people lose weight for health reasons like preventing diabetes, cancer and heart disease. What are your reasons to meet your goal?</item>
+        <item>Well done! On most days last week you met your calorie goals. People have their own reasons for weight loss, one example is to feel fitter and healthier. Is this one of your reasons?</item>
+        <item>"Keep up the good work, you met your calorie goals on most days last week. Don't forget even a small weight loss can help to protect your health in the long term. What other benefits can you think of?"</item>
+        <item>Good work, you met your calorie targets on most days recorded last week, have a look at your diary, what types of food are most of your calories coming from?</item>
+        <item>"You've done really for most of the week and met your calorie target, keep going, what can you see from your diary? Is there any scope for increasing your activity for example?"</item>
+        <item>"Well done you met your calorie targets on most days this week. Don't stop now - check your diary, are there any swaps you can make for lower calorie foods?"</item>
+        <item>"You've met your calorie targets most days you recorded, you are making good progress, your diary can help you to understand your diet, is there any room for improvement?"</item>
+        <item>Excellent! You met your calorie goals on most recorded days this week. Keep going! Can you see any patterns from reviewing your diary? Is there any scope to reduce portion sizes for example?</item>
+        <item>Superb! You met your calorie targets most recorded days this week, have a look back at your diary, are there any small changes you could make to meet your target every day next week?</item>
+        <item>Well done. You met your target on most days this week. Your diary can help you to understand your eating patterns, are there any times of the day when you eat more?</item>
+        <item>You met your calorie goals on over half of your recorded days last week. Is there anything you can learn from your diary to help you do even better next week?</item>
+    </string-array>
+    <string-array name="feedback_messages_a4">
+        <item>Well done! You have met your calorie targets on all recorded days for the week. You have the ability to meet your targets and you are right on track to successfully achieving your weight loss goal!</item>
+        <item>Congratulations! You have done really well this week and met your calorie targets on all recorded days. You are making excellent progress towards your goal.</item>
+        <item>Great work! You have been within your calorie targets on all of your diary entries this week. You should be proud of your effort this week. Plan now to achieve the same next week.</item>
+        <item>Every diary entry this week has been within your calorie target this week. You should be pleased with your progress towards your weight loss goal- well done!</item>
+        <item>You have met your calorie targets on every day recorded this week. Your perseverance is paying off and you are making excellent progress towards meeting your weight loss goal.</item>
+        <item>Great achievement - you have met your calorie targets on all recorded days this week. You are capable of reaching what you set out to achieve. You should be proud of your effort.</item>
+        <item>Success! - you met your calorie targets on all the days you recorded. Meeting your calorie targets in this way will help you to achieve weight loss.</item>
+        <item>100% success - all of the diary entries that you recorded this week met your calorie targets. Keep up this effort and you will meet your desired weight loss goal.</item>
+        <item>Excellent! All of your recorded entries this week met your calorie targets. You are on the right track to your goal of weight loss. How about sharing with your friends and family how well you are doing?</item>
+        <item>All of your recorded entries this week met your calorie targets. Great job - you are good at monitoring your intake. Remember meeting your weekly calorie targets will help you to lose weight in the long run.</item>
+        <item>Well done! All of your diary entries this week met your weekly calorie target. You are on track to losing weight and all of the benefits that come with it.</item>
+        <item>You are on track to losing weight - it looks like all of your recorded days met your calorie target. What benefits can you already feel?</item>
+        <item>Fantastic! All of your recorded days for the week were within your calorie target. You are doing really well. What changes have you made to meet your targets?</item>
+        <item>Success! You achieved your weekly calorie targets for the days you recorded. You have the commitment to monitor your intake well and reach what you set out to achieve.</item>
+        <item>Well done! All of your recorded days were within your calorie budget. You have shown dedication and commitment this week. Keep up this good work and you will achieve your weight loss goal.</item>
+        <item>Congratulations! You have done really well this week and met your calorie targets on all recorded days. You are making excellent progress towards your goal.</item>
+        <item>Some excellent changes are taking place. You have met your calorie target on all recorded days for the week. If you keep this up you can meet your goal.</item>
+        <item>You should feel great about your efforts this week. You have met your calorie targets on all the days recorded. Keep up this good work and you are on track to achieving the your desired weight.</item>
+        <item>Your weight loss goal is within sight. You have met your weekly calorie target this week. Keep up the good work - you should be proud of your achievement.</item>
+        <item>You have the ability to meet your calorie targets. If you keep doing this each week you will achieve your weight loss overall. Keep sight of your goal you are doing really well!</item>
+        <item>You have shown this week that you can meet your calorie targets. Well done, keep it up and you will achieve your goal. Take this time to remind yourself of all the reasons you have committed to this programme.</item>
+        <item>It looks like you have met your calorie target on every recorded day this week. You are well motivated and on track to achieving weight loss. Well done - keep reminding yourself of why you are doing this.</item>
+        <item>You have demonstrated this week that you can monitor your intake and meet your calorie goals. This is a great achievement and if you continue in this way you will achieve your weight loss goal.</item>
+        <item>You have achieved your calorie targets on the days you recorded. There is evidence that people who record their intake every day lose weight. You are making great progress!</item>
+    </string-array>
+    <string-array name="feedback_messages_b1">
+        <item>"Don't forget to do some diary entries, even if you've lost weight it can help keep track of your choices and maintain your weight loss."</item>
+        <item>"Don't forget, the most effective way to lose weight is to keep a diary of your diet and activity."</item>
+        <item>"You haven't completed your diary for a while. There is evidence that keeping a food diary is one of the most effective ways to lose and maintain weight. Do you still want to meet your weight loss goal? Why?"</item>
+        <item>"It looks like you haven't completed your diary for last week. Don't forget the diary can help you become more aware of your eating and activity and any problem areas."</item>
+        <item>"Don't forget to fill in your food diary. It can be a great motivator and will allow you to see your progress more completely over time."</item>
+        <item>"You haven't recorded your intake for a while. The food diary can help you to become more aware of your eating and help you make conscious choices. Even if you have lost weight already don't give up."</item>
+        <item>Have you recorded your foods lately? Writing down what you eat can help you to make choices and raise your awareness. This will help you manage your weight in the long term.</item>
+        <item>"Don't forget to fill in your food diary. Do you use the photos as reminders? This could help you if you want to record things later after you've eaten them."</item>
+        <item>"You haven't completed your diary for a while. You could make a plan now to commit to completing the diary next week. It will be worth the effort!"</item>
+        <item>"It looks like you haven't recorded in your diary this week. People who are successful at weight loss monitor what they eat and how active they are. It could work for you."</item>
+        <item>Have you filled in your diary recently? It might help to make some notes of your thoughts and feelings when you eat, especially if you eat for comfort or when you’re not hungry.</item>
+        <item>How is your motivation to meet your goal? Filling in your diary can help you to keep up your motivation to meet your calorie targets and achieve your goal of weight loss.</item>
+        <item>"Don't forget to complete you diary. The diary will help you to target problem areas and find the right way of eating for you to manage your weight. If you have lost weight already it can help you to maintain your achievement."</item>
+        <item>"You haven't completed your diary for a week. It’s natural to have a lapse sometimes. The diary can help you pinpoint lapses and find out what works best for you."</item>
+        <item>Are you still keeping your food diary? The closer you track yourself and the more honest you are, the more your diary will work for you and help you to meet your weight loss goal.</item>
+        <item>"You haven't completed your food diary for a while. Don't forget keeping track of your intake will also show you when you can afford to treat yourself guilt-free and when you can give yourself credit for doing well."</item>
+        <item>Are you still filling in your diary? Remember that the diary can help you to notice if there are times when you eat more. It’s difficult to notice patterns and keep track of snacks without writing it down.</item>
+        <item>"You haven't completed your diary for a while. Remember that even if you are the only one that sees the diary it is giving you control over your eating and weight."</item>
+        <item>"Don't forget your diary next week. Recording your intake can tell you about your eating patterns. Remember that it’s healthier to have a regular meal pattern than to skip meals."</item>
+        <item>"You haven't recorded your intake in a while. How do you make decisions about portion sizes? Some people find it useful to weigh their foods at the start to get an idea of portion size."</item>
+        <item>It looks like your food diary is empty for last week. Several studies have shown that people who write down everything they eat and drink are more likely to lose weight.</item>
+        <item>A week has gone by without any diary entries. Remember that in weight loss studies, the people that record in their diary every day are the ones who lose the most weight.</item>
+        <item>Your diary is empty for the past week. People find the diary useful for all sorts of reasons. They may notice patterns or times when they eat more, learn about snacking or portion sizes. Can you learn anything from your diary?</item>
+        <item>Your food diary can help you see the overall health of your diet. For example, are you eating 5 portions of fruit and veg a day? Make a plan now to record your intake next week.</item>
+    </string-array>
+    <string-array name="feedback_messages_b2">
+        <item>It appears that you recorded more diary entries last month than this month. Try to keep going with recording in your diary, it can help you to achieve your weight loss goal and maintain your weight.</item>
+        <item>It looks like you completed more diary entries last month than this month. Remember that people who record their intake every day are more likely to lose weight.</item>
+        <item>You seem to have recorded more last month than this month. How is your motivation to meet your goals. Remember that the more you record in your diary, the more likely you will achieve weight loss.</item>
+        <item>Your recording seems to be less this month. Even if you have lost weight already, recording in the diary daily will help you stay on track. It’s worth the effort!</item>
+        <item>You have recorded in your diary less this month than last month. Remember that the diary will work for you best the more you record in it.</item>
+    </string-array>
+    <string-array name="feedback_messages_b3">
+        <item>"Don't forget to weigh yourself and keep track. This will help you to see your progress over time. Don't be disheartened if your weight has stayed the same, it’s the overall trend that counts."</item>
+        <item>Have you entered your weight lately? You have made a commitment to weight loss. Your weight chart will help you to see how you are progressing.</item>
+        <item>Try not to put off entering how much you weigh. It’s an important part of self-monitoring and will let you know how well you are doing.</item>
+        <item>"Have you weighed yourself lately? Don't be too hard on yourself if you haven't lost weight. You can always re-commit to your goal and try again."</item>
+        <item>"Have you checked your weight lately? Try not to give up if you haven't lose as much as you wanted. Keeping your weight consistent is still progress."</item>
+        <item>"Is it time to weigh yourself? Don't forget that this is one way of tracking your progress. You don't have to tell anyone if you don't want to but it will help you to see how you are doing."</item>
+    </string-array>
+</resources>

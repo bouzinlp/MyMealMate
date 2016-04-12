@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:background="@drawable/gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_title" style="@style/TextStyle0" />
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="*">
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date_of_birth_label" />
+            <Button android:textColor="#ff000000" android:gravity="center|left" android:id="@id/dateOfBirth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="4" android:hint="@string/date_of_birth_label" android:onClick="onDateClick" style="@style/TextStyle3" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/geneder_label" />
+            <Spinner android:id="@id/genderSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="4" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:layout_gravity="center|right" android:id="@id/infoAboutMetric" android:background="@drawable/info_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="5" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height_label" />
+            <EditText android:id="@id/height1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/height_label" android:maxLength="3" android:inputType="number" />
+            <TextView android:id="@id/height1Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="m" />
+            <EditText android:id="@id/height2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/height_label" android:maxLength="4" android:inputType="numberDecimal" />
+            <TextView android:id="@id/height2Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="cm" android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weigth_label" />
+            <EditText android:id="@id/weight1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/weigth_label" android:maxLength="5" android:inputType="numberDecimal" />
+            <TextView android:id="@id/weight1Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="st" />
+            <EditText android:id="@id/weight2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/weigth_label" android:maxLength="4" android:inputType="numberDecimal" />
+            <TextView android:id="@id/weight2Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="lbs" />
+        </TableRow>
+        <TableRow>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="5" android:text="Save" android:onClick="onSaveClick" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

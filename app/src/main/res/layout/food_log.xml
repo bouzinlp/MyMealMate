@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/CaptionLinearLayout" android:background="@drawable/gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/TitleRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/TitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/food_log_title" android:layout_centerHorizontal="true" style="@style/TextStyle0" />
+            <ViewStub android:id="@id/TitleViewStub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/TitleRelativeLayout" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/DateNavRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/leftViewStub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <ImageButton android:layout_gravity="center" android:id="@id/prevDateNavButton" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/left_arrow" />
+                <TextView android:textColor="@color/solid_white" android:layout_gravity="center" android:id="@id/dateTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mon, 12 July" style="@style/TextStyle0" />
+                <ImageButton android:layout_gravity="center" android:id="@id/nextDateNavButton" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/right_arrow" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/summaryLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0sp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/goalLinearLayout" android:background="@drawable/diary_summary_bkg" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0sp" android:layout_weight="1.0">
+            <TextView android:textStyle="normal" android:gravity="center_vertical" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/goal_label" android:layout_weight="1.0" style="@style/TextStyle1" />
+            <TextView android:gravity="center_vertical" android:id="@id/goalTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2100" android:layout_weight="1.0" style="@style/TextStyle1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/goalLinearLayout" android:background="@drawable/diary_summary_bkg" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0sp" android:layout_weight="1.0">
+            <TextView android:textStyle="normal" android:gravity="center_vertical" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/food_label" android:layout_weight="1.0" style="@style/TextStyle1" />
+            <TextView android:gravity="center_vertical" android:id="@id/totalFoodTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1010" android:layout_weight="1.0" style="@style/TextStyle1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/goalLinearLayout" android:background="@drawable/diary_summary_bkg" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0sp" android:layout_weight="1.0">
+            <TextView android:textStyle="normal" android:gravity="center_vertical" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exercise_label" android:layout_weight="1.0" style="@style/TextStyle1" />
+            <TextView android:gravity="center_vertical" android:id="@id/totalExerciseTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-479" android:layout_weight="1.0" style="@style/TextStyle1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/goalLinearLayout" android:background="@drawable/diary_summary_bkg" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0sp" android:layout_weight="1.0">
+            <TextView android:textStyle="normal" android:gravity="center_vertical" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_label" android:layout_weight="1.0" style="@style/TextStyle1" />
+            <TextView android:gravity="center_vertical" android:id="@id/netTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="531" android:layout_weight="1.0" style="@style/TextStyle1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/goalLinearLayout" android:background="@drawable/dairy_summary_remain_bkg" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="60.0sp" android:layout_weight="1.5">
+            <TextView android:gravity="center_vertical" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remaining_label" android:layout_weight="1.0" style="@style/TextStyle1" />
+            <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/remainingTextView" android:background="@drawable/dairy_summary_remain_val_bkg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1569" android:layout_weight="1.0" style="@style/TextStyle1" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/breakfastLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0sp" android:layout_marginTop="10.0sp" android:layout_marginRight="5.0sp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/breakfastTitleLinearLayout" android:background="@drawable/dairy_title_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center|left" android:id="@id/breakfastLabelTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/title_breakfast" android:layout_weight="1.0" style="@style/TextStyle0" />
+                    <TextView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/breakfastTotalTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="430 cal" android:layout_weight="1.0" style="@style/TextStyle0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/breakfastListLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/lunchLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0sp" android:layout_marginTop="10.0sp" android:layout_marginRight="5.0sp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lunchTitleLinearLayout" android:background="@drawable/dairy_title_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center|left" android:id="@id/lunchLabelTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/title_lunch" android:layout_weight="1.0" style="@style/TextStyle0" />
+                    <TextView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/lunchTotalTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="430 cal" android:layout_weight="1.0" style="@style/TextStyle0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/lunchListLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/supperLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0sp" android:layout_marginTop="10.0sp" android:layout_marginRight="5.0sp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/supperTitleLinearLayout" android:background="@drawable/dairy_title_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center|left" android:id="@id/supperLabelTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/title_supper" android:layout_weight="1.0" style="@style/TextStyle0" />
+                    <TextView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/supperTotalTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="430 cal" android:layout_weight="1.0" style="@style/TextStyle0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/supperListLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/snacksLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0sp" android:layout_marginTop="10.0sp" android:layout_marginRight="5.0sp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/snacksTitleLinearLayout" android:background="@drawable/dairy_title_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center|left" android:id="@id/snacksLabelTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/title_snacks" android:layout_weight="1.0" style="@style/TextStyle0" />
+                    <TextView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/snacksTotalTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="430 cal" android:layout_weight="1.0" style="@style/TextStyle0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/snacksListLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/exerciseLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0sp" android:layout_marginTop="10.0sp" android:layout_marginRight="5.0sp">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/exerciseTitleLinearLayout" android:background="@drawable/dairy_title_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center|left" android:id="@id/exerciseLabelTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/title_exercise" android:layout_weight="1.0" style="@style/TextStyle0" />
+                    <TextView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/exerciseTotalTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="430 cal" android:layout_weight="1.0" style="@style/TextStyle0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/exerciseListLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

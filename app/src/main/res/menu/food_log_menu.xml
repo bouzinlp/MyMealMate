@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_star" android:id="@id/favouriteItem" android:title="@string/favourite" android:titleCondensed="@string/favourite" />
+    <item android:icon="@android:drawable/ic_menu_recent_history" android:id="@id/recentItem" android:title="@string/recent_items_menu" android:titleCondensed="@string/recent_items_menu" />
+    <item android:icon="@android:drawable/ic_menu_camera" android:id="@id/addPhoto" android:title="@string/take_photo_menu" />
+    <item android:icon="@drawable/ic_menu_mark" android:id="@id/completeDay" android:title="@string/complete_day_menu" />
+</menu>

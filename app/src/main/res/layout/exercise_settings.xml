@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:background="@drawable/gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exercise_settings_title" style="@style/TextStyle0" />
+        <TextView android:background="@drawable/gradient" android:padding="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exercise_work_list_title" />
+        <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/workRadio1" android:tag="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Mostly sitting" android:onClick="onWorkClick" />
+            <RadioButton android:id="@id/workRadio2" android:tag="2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seated work but some requirement to move around (office work with light activities)" android:onClick="onWorkClick" />
+            <RadioButton android:id="@id/workRadio3" android:tag="3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Standing/walking most of the time (shop assistant, delivering mail, cleaning work)" android:onClick="onWorkClick" />
+            <RadioButton android:id="@id/workRadio4" android:tag="4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Heavy work" android:onClick="onWorkClick" />
+        </RadioGroup>
+        <TextView android:background="@drawable/gradient" android:padding="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exercise_leisure_list_title" />
+        <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/leisureRadio1" android:tag="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Very light (mostly sitting)" android:onClick="onLeisureClick" />
+            <RadioButton android:id="@id/leisureRadio2" android:tag="2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Light (light walking for 30 minutes or less most days)" android:onClick="onLeisureClick" />
+            <RadioButton android:id="@id/leisureRadio3" android:tag="3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Moderate (regular activities most days such as vigorous walking, cycling or sport for 30 minutes or longer)" android:onClick="onLeisureClick" />
+            <RadioButton android:id="@id/leisureRadio4" android:tag="4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Very active (more than an hour of daily strenuous activities such as sport or cycling)" android:onClick="onLeisureClick" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

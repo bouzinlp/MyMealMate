@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:background="@drawable/gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preferences_title" style="@style/TextStyle0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:padding="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_label_1" />
+        <Spinner android:id="@id/heightFormat" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:padding="5.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_label_2" />
+        <Spinner android:id="@id/weightFormat" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

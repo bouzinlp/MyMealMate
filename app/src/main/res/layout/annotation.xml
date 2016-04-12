@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/foodView" android:layout_width="480.0px" android:layout_height="800.0px">
+        <LinearLayout android:orientation="vertical" android:id="@id/breakfastLinearLayout" android:layout_width="fill_parent" android:layout_height="650.0px" android:layout_marginLeft="5.0sp" android:layout_marginTop="10.0sp" android:layout_marginRight="5.0sp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/breakfastTitleLinearLayout" android:background="@drawable/dairy_title_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center|left" android:id="@id/breakfastLabelTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_breakfast" style="@style/TextStyle0" />
+                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="#ff4040a0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_for_photo" style="@style/TextStyle5" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/swipe_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/foodListLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/solid_white" android:gravity="center" android:background="@drawable/button" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="Add" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="onAddClick" style="@style/TextStyle0" />
+            <Button android:textColor="@color/solid_white" android:gravity="center" android:background="@drawable/button" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="Cancel" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="onCancelClick" style="@style/TextStyle0" />
+            <Button android:textColor="@color/solid_white" android:gravity="center" android:background="@drawable/button" android:layout_width="150.0px" android:layout_height="wrap_content" android:text="Done" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="onDoneClick" style="@style/TextStyle0" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/pictureView" android:layout_width="480.0px" android:layout_height="800.0px" />
+</LinearLayout>

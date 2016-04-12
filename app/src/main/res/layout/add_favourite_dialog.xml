@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/TextView01" android:layout_width="0.0sp" android:layout_height="wrap_content" android:text="@string/name" android:layout_weight="0.3" />
+        <EditText android:id="@id/favouriteName" android:layout_width="0.0sp" android:layout_height="wrap_content" android:layout_weight="0.7" />
+    </LinearLayout>
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/mealSlotsLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@id/mealSlotsRadioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

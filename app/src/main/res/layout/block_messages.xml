@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/TitleTextView" android:background="@drawable/gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/block_messages_title" style="@style/TextStyle0" />
+    <CheckBox android:id="@id/blockAlwaysCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_messages_always" />
+    <TableLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_messages_from" android:layout_weight="0.3" />
+            <Button android:id="@id/BlockMessageFrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.3" />
+            <TextView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_messages_from" android:layout_weight="0.3" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_messages_to" android:layout_weight="0.3" />
+            <Button android:id="@id/BlockMessageTo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.3" />
+            <TextView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_messages_to" android:layout_weight="0.3" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
