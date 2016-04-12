@@ -29,7 +29,7 @@ public class XmlPullParserFactory {
     public static XmlPullParserFactory newInstance(String str, Class cls) throws XmlPullParserException {
         String str2;
         Class cls2;
-        Object obj;
+        Object obj = new Object();
         Object newInstance;
         Class cls3;
         Object obj2;

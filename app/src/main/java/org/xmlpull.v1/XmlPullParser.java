@@ -21,11 +21,11 @@ public interface XmlPullParser {
     public static final int START_DOCUMENT = 0;
     public static final int START_TAG = 2;
     public static final int TEXT = 4;
-    public static final String[] TYPES;
+    public static final String[] TYPES = new String[]{"START_DOCUMENT", "END_DOCUMENT", "START_TAG", "END_TAG", "TEXT", "CDSECT", "ENTITY_REF", "IGNORABLE_WHITESPACE", "PROCESSING_INSTRUCTION", "COMMENT", "DOCDECL"};;
 
-    static {
+    /*static {
         TYPES = new String[]{"START_DOCUMENT", "END_DOCUMENT", "START_TAG", "END_TAG", "TEXT", "CDSECT", "ENTITY_REF", "IGNORABLE_WHITESPACE", "PROCESSING_INSTRUCTION", "COMMENT", "DOCDECL"};
-    }
+    }*/
 
     void defineEntityReplacementText(String str, String str2) throws XmlPullParserException;
 
